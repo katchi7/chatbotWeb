@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width : fit-content;
+    align-self: center;
+    margin-top: 4%;
+    box-shadow: 5px 15px 10px black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.Title{
+    text-align: center;
+    cursor: pointer;
+}
+p{
+    cursor: default ;
+}
+.message_user{
+    box-shadow: 1px 1px 10px black;
+    background-color: #bb3b3baf;
+    width: fit-content;
+    margin-right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    text-align: right;
+    align-self: flex-end;
+    width: fit-content;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+    padding-bottom: 5px;
+}
+.titleContainer{
+    align-self: center;
+    width: 300px;
+    background-color:#bb3b3baf ;
+    box-shadow: 0px 5px 10px black;
+}
+.conversation{
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    width: 300px;
+    height: 400px;
+    max-width: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7px;
+}
+.conversation::-webkit-scrollbar {
+    margin-right:2.5px ;
+    width: 5px;
+}
+.conversation::-webkit-scrollbar-thumb{
+    background: #bb3b3baf;
+    cursor: pointer;
+}
+
+.MessageInput{
+    width: 250px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 1.5px #bb3b3baf solid;
+    padding: 5px;
+}
+.MessageInput:focus{
+    outline: none;
+    border: 1.5px #2980b9 solid;
+}
+.MessageInputField{
+    width: 300px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around; 
+    align-content: center;
+
+}
+#send{
+    cursor: pointer;
+    color: #bb3b3baf;
+    justify-self: flex-end;
+    font-size: x-large;
+}
+.message_chatbot{
+    box-shadow: 1px 1px 10px black;
+    margin-left: 10px;
+    width: fit-content;
+    background-color: #9b7272af;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
